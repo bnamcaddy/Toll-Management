@@ -27,9 +27,29 @@ body{
 aside{
     width: 200px;
     padding-left: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh; 
 
 }
 .menu-item{
     margin-bottom: 15px;
 
+}
+main{
+    background-color: #d2d0d0;
+    padding: 2rem;
+    justify-content: space-between;
+
+    
+}
+.card{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 8px 0;
+    transition: all o.5s ease-in-out;
+    
 }
