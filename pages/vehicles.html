@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../styles/vehicle.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div>Toll Tax</div>
+      <div class="profile"></div>
+    </header>
+    <div id="container">
+      <aside>
+        <div class="sidebar">
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li class="active"><a href="#">Vehicles</a></li>
+            <li><a href="#">Change Password</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <div class="filter">
+          <div class="input-group">
+            <label>Select car type:</label>
+            <select>
+              <option value=""></option>
+              <option value="Bus">Bus</option>
+              <option value="Motorcycle">Motorcycle</option>
+              <option value="Truck">Truck</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label>Select car color:</label>
+            <select>
+              <option value=""></option>
+              <option value="Red">Red</option>
+              <option value="White">White</option>
+              <option value="Black">Black</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label>Select location:</label>
+            <select>
+              <option value=""></option>
+              <option value="Kasoa">Kasoa</option>
+              <option value="Kotei">Kotei</option>
+              <option value="Tafo">Tafo</option>
+            </select>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>Date</td>
+              <td>License Number</td>
+              <td>Vehicle Color</td>
+              <td>Vehicle Type</td>
+              <td>Location</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="white-row">
+              <td>14/11/2002</td>
+              <td>AW 3294-23</td>
+              <td>Red</td>
+              <td>Bus</td>
+              <td>Kasoa</td>
+            </tr>
+            <tr class="dark-row">
+              <td>14/11/2002</td>
+              <td>AW 3294-23</td>
+              <td>Red</td>
+              <td>Bus</td>
+              <td>Kasoa</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>

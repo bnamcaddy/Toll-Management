@@ -24,38 +24,17 @@ header {
     display: flex;
     flex-direction: row;
 }
+
 main {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* background-color: #ff6347; */
-    height: 60vh;
-}
-.card {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    margin: 20px;
-    width: calc(20% - 40px);
-    height: 80px;
-    max-width: 200px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.card h3 {
-    margin-top: 0;
-    font-size: 15px;
-    color: #fff;
-}
-.card p {
-    margin: 10px 0 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-}
+
+
 .sidebar {
     width: 200px;
     background-color: #fff;
@@ -92,29 +71,46 @@ main {
 .sidebar a:hover {
     color: #ccc;
 }
-.card.total-staff {
-    background-color: #9b9bf9; /* Coral */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+
+}
+table thead tr td{
+    width: 20%;
+    border-right: 1px solid grey;
+    padding-left: 10px;
+}
+table thead{
+    border: solid 1px grey;
+    background-color: #cecece;
+}
+table tbody tr td {
+    border: solid 1px grey;
+}
+table tbody .dark-row{
+    background-color: #b1b1b1;
 }
 
-.card.total-category {
-    background-color: blueviolet; /* Royal Blue */
+.filter{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
-.card.total-pass{
-    background-color: rgb(139, 79, 195);
+.filter select{
+    width: 150px;
+    height: 25px;
 }
-.card.total-receipt{
-    background-color: coral;
+.input-group{
+    display: flex;
+    flex-direction: column;
 }
-.card.total-vehicle{
-    background-color: #9b9bf9;
-}
-.card.yester-vehicle{
-    background-color: blueviolet;
-}
-.card.last-vehicle{
-    background-color: rgb(139, 79, 195);
-}
-.card.vehicle-date{
-    background-color: coral;
+label{
+    font-weight: lighter;
 }
 
